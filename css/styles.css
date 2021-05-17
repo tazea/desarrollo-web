@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300&display=swap");
+/*Variables*/
+.container-fluid {
+  padding: 0;
+  margin: 0; }
+
+.navbar {
+  background-color: #222222;
+  padding: 0;
+  margin: 0; }
+  .navbar .row {
+    padding: 0;
+    margin: 0; }
+  .navbar__logo {
+    width: 170px;
+    padding: 0.5rem 0rem; }
+  .navbar__pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; }
+    .navbar__pages ul {
+      list-style-type: none; }
+      .navbar__pages ul li {
+        display: flex;
+        align-items: center; }
+        .navbar__pages ul li a {
+          font-family: "Montserrat", sans-serif;
+          font-size: 1.2rem;
+          font-weight: 200;
+          text-decoration: none;
+          color: #fcfaf5; }
+
+.header {
+  /*Pagina productos*/ }
+  .header .row {
+    padding: 0;
+    margin: 0; }
+  .header__background {
+    height: 65vh;
+    object-fit: cover;
+    overflow: hidden; }
+  .header__text {
+    width: 33.33333vw;
+    color: #fcfaf5;
+    position: absolute;
+    margin: 0rem 4rem;
+    padding: 1rem 1rem;
+    background-color: rgba(184, 184, 184, 0.3);
+    border: 2px solid #222222; }
+    .header__text h3 {
+      text-align: end;
+      font-size: 3rem;
+      font-weight: 200; }
+    .header__text p {
+      text-align: end;
+      font-weight: 200; }
+  .header__drop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem; }
+    .header__drop h1 {
+      font-size: 3rem;
+      font-weight: 400; }
+    .header__drop p {
+      font-size: 1.2rem; }
+  .header hr {
+    width: 95vw;
+    border: none;
+    border-bottom: 1.5px solid #0a0a0a;
+    box-shadow: 0px 2px 5px black;
+    border-radius: 1rem; }
+
+.carousel__container {
+  height: 65vh;
+  object-fit: cover; }
+
+.carousel__title {
+  font-size: 2.5rem;
+  font-weight: 400; }
+
+.carousel__paragraph {
+  font-size: 1.2rem;
+  font-weight: 200; }
+
+.products {
+  margin: 3rem 0rem;
+  padding: 0; }
+  .products .carousel-control-next,
+  .products .carousel-control-prev,
+  .products .carousel-indicators {
+    filter: invert(100%); }
+  .products .row {
+    margin: 0;
+    padding: 0; }
+  .products__carousel {
+    width: inherit; }
+  .products__img {
+    width: 600px;
+    height: 600px; }
+    .products__img img {
+      object-fit: contain;
+      width: inherit; }
+  .products__text h3 {
+    font-weight: 400;
+    color: #222222; }
+  .products__text p {
+    font-size: 0.8rem; }
+
+.footer {
+  background-color: #222222;
+  color: #fcfaf5;
+  font-weight: 200;
+  font-size: 1.1rem;
+  padding: 3rem 3rem 0 3rem; }
+  .footer__socialMedia p {
+    font-size: 1.3rem;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: #baa850; }
+  .footer__socialMedia ul {
+    list-style-type: none;
+    padding: 0; }
+    .footer__socialMedia ul a {
+      text-decoration: none;
+      color: #fcfaf5; }
+  .footer__contactUs p {
+    text-align: end;
+    font-size: 1.3rem;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: #baa850; }
+  .footer__contactUs ul {
+    text-align: end;
+    list-style-type: none; }
+    .footer__contactUs ul a {
+      text-decoration: none;
+      color: #fcfaf5; }
+  .footer__copyright {
+    font-size: 0.8rem;
+    font-style: italic;
+    font-weight: 100;
+    text-align: center; }
+
+/*Pagina productos*/
+.product__description {
+  padding-bottom: 8rem;
+  row-gap: 1rem; }
+  .product__description h3 {
+    font-size: 2rem;
+    font-weight: 400; }
+  .product__description p {
+    font-size: 0.95rem;
+    font-weight: 400; }
+
+.product__img {
+  width: 700px;
+  height: 700px; }
+  .product__img img {
+    object-fit: contain;
+    height: inherit; }
+
+.product .handbrake img {
+  height: 500px; }
+
+.product .shifter img {
+  height: 500px; }
+
+.button a {
+  text-decoration: none;
+  color: #baa850;
+  background-color: #222222;
+  padding: 0.3rem 0.7rem; }
+  .button a:hover {
+    color: #222222;
+    background-color: #baa850; }
+
+/*Pagina compania*/
+iframe {
+  width: inherit;
+  height: inherit; }
+
+.company {
+  padding: 5rem; }
+  .company h2 {
+    font-weight: 400;
+    padding: 1rem 0rem; }
+  .company h3 {
+    font-weight: 400; }
+  .company p {
+    font-weight: 200; }
+
+/*Soporte*/
+.faq {
+  padding: 5rem; }
+  .faq h2 {
+    font-weight: 400;
+    padding: 1rem 0rem; }
+  .faq__questions h3 {
+    font-weight: 400; }
+  .faq__questions p {
+    font-weight: 200; }
+
+.contact {
+  font-size: 0.9rem;
+  padding: 2rem;
+  row-gap: 0.5rem;
+  align-items: center; }
+  .contact h2 {
+    font-weight: 400; }

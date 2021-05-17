@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Empresa dedicada a la fabricacion de productos de simulacion, o bien conocido como, simracing. Productos desarrollados y fabricados en Argentina"
+    />
+    <meta
+      name="keywords"
+      content="SIM, SIMRACING, PODIUM, PEDALS, HANDBRAKE, SHIFTER, SIMULACION, RACING"
+    />
+    <title>Podium Electronics</title>
+    <link rel="shortcut icon" href="imagenes/pedals.png" type="image/x-icon" />
+    <!--CSS Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar">
+        <div class="row col-12">
+          <div class="col-sm-12 col-md-3 col-lg-2 d-sm-flex justify-content-sm-center">
+            <img class="navbar__logo" src="imagenes/logo-min.png" alt="Logo Podium Electronics" />
+          </div>
+          <div class="navbar__pages col-sm-12 col-md-9 col-lg-10">
+            <ul class="row">
+              <li class="col-sm-12 col-md-auto d-flex justify-content-sm-center">
+                <a href="index.html">INICIO</a>
+              </li>
+              <li class="col-sm-12 col-md-auto justify-content-sm-center">
+                <a href="./pages/products.html">PRODUCTOS</a>
+              </li>
+              <li class="col-sm-12 col-md-auto justify-content-sm-center">
+                <a href="./pages/company.html">COMPANIA</a>
+              </li>
+              <li class="col-sm-12 col-md-auto justify-content-sm-center">
+                <a href="./pages/support.html">SOPORTE</a>
+              </li>
+              <li
+                class="col-sm-12 col-md-auto justify-content-sm-center"
+                onclick="javascript: return false;"
+                data-toggle="modal"
+                data-target="#cart"
+              >
+                <a href="">CARRITO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="modal" id="cart">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Proximamente...</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">Pagina en construccion</div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <header class="header">
+        <div
+          class="
+            row
+            header__background
+            col-12
+            d-flex
+            flex-lg-column
+            justify-content-lg-center
+            align-items-lg-end
+          "
+        >
+          <img class="carousel__img" src="./imagenes/drifting-car-min.jpg" alt="Podium" />
+          <div class="header__text">
+            <h3>Lorem</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit sequi
+              voluptatibus reiciendis, porro inventore minus.
+            </p>
+          </div>
+        </div>
+        <div class="header__drop">
+          <h1>Lorem</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex reprehenderit minima
+            doloribus. Sequi, eos fuga?
+          </p>
+        </div>
+        <hr />
+      </header>
+
+      <div class="container-fluid products">
+        <div class="row col-12">
+          <div id="product-slides" class="carousel products__carousel" data-ride="carousel">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#product-slides" data-slide-to="0" class="active"></li>
+              <li data-target="#product-slides" data-slide-to="1"></li>
+              <li data-target="#product-slides" data-slide-to="2"></li>
+            </ul>
+            <!-- The slideshow -->
+            <div class="carousel-inner container-fluid">
+              <div class="carousel-item active col-12">
+                <div class="products__container row col-12 d-flex align-items-lg-center">
+                  <div class="products__text col-lg-5 col-md-12">
+                    <div class="row d-flex justify-content-end">
+                      <div class="col-lg-12 col-md-12 text-lg-right text-md-center text-sm-center">
+                        <h3>Lorem</h3>
+                      </div>
+                      <div
+                        class="
+                          col-lg-10 col-md-12
+                          offset-lg-2 offset-md-0
+                          text-lg-right text-md-center text-sm-center
+                        "
+                      >
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi reiciendis
+                          iusto cupiditate mollitia nulla necessitatibus obcaecati? Aqui
+                          proximamente se va a hacer una preview de los productos que se van a poder
+                          deslizar a los costados, no quedarian uno debajo del otro porque eso ya lo
+                          desmuestro en la seccion de productos
+                        </p>
+                        <p>
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis,
+                          adipisci facere laudantium doloribus repellat praesentium repudiandae
+                          ducimus cum vero placeat vel ipsa similique quas necessitatibus voluptates
+                          quaerat aliquid suscipit tempore! Debitis harum vero recusandae vel magni
+                          possimus alias odio sapiente! Ducimus delectus ab labore explicabo,
+                          adipisci nobis necessitatibus odit amet.
+                        </p>
+                      </div>
+                      <div class="button d-flex flex-row-reverse col-lg-2">
+                        <a href="" class=""> COMPRAR</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="products__img col-lg-7 cl-md-12 d-flex justify-content-center">
+                    <img src="./imagenes/pedals-png-min.png" alt="Simracing pedals" class="product-image" />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item col-12">
+                <div class="products__container row col-12 d-flex align-items-lg-center">
+                  <div class="products__text col-lg-5 col-md-12">
+                    <div class="row d-flex justify-content-end">
+                      <div class="col-lg-12 col-md-12 text-lg-right text-md-center text-sm-center">
+                        <h3>Lorem</h3>
+                      </div>
+                      <div
+                        class="
+                          col-lg-10 col-md-12
+                          offset-lg-2 offset-md-0
+                          text-lg-right text-md-center text-sm-center
+                        "
+                      >
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi reiciendis
+                          iusto cupiditate mollitia nulla necessitatibus obcaecati? Aqui
+                          proximamente se va a hacer una preview de los productos que se van a poder
+                          deslizar a los costados, no quedarian uno debajo del otro porque eso ya lo
+                          desmuestro en la seccion de productos
+                        </p>
+                        <p>
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis,
+                          adipisci facere laudantium doloribus repellat praesentium repudiandae
+                          ducimus cum vero placeat vel ipsa similique quas necessitatibus voluptates
+                          quaerat aliquid suscipit tempore! Debitis harum vero recusandae vel magni
+                          possimus alias odio sapiente! Ducimus delectus ab labore explicabo,
+                          adipisci nobis necessitatibus odit amet.
+                        </p>
+                      </div>
+                      <div class="button d-flex flex-row-reverse col-lg-2">
+                        <a href="" class=""> COMPRAR</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="products__img col-lg-7 cl-md-12 d-flex justify-content-center">
+                    <img
+                      src="./imagenes/handbrake.png"
+                      alt="Simracing Handbrake"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item col-12">
+                <div class="products__container row col-12 d-flex align-items-lg-center">
+                  <div class="products__text col-lg-5 col-md-12">
+                    <div class="row d-flex justify-content-end">
+                      <div class="col-lg-12 col-md-12 text-lg-right text-md-center text-sm-center">
+                        <h3>Lorem</h3>
+                      </div>
+                      <div
+                        class="
+                          col-lg-10 col-md-12
+                          offset-lg-2 offset-md-0
+                          text-lg-right text-md-center text-sm-center
+                        "
+                      >
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi reiciendis
+                          iusto cupiditate mollitia nulla necessitatibus obcaecati? Aqui
+                          proximamente se va a hacer una preview de los productos que se van a poder
+                          deslizar a los costados, no quedarian uno debajo del otro porque eso ya lo
+                          desmuestro en la seccion de productos
+                        </p>
+                        <p>
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis,
+                          adipisci facere laudantium doloribus repellat praesentium repudiandae
+                          ducimus cum vero placeat vel ipsa similique quas necessitatibus voluptates
+                          quaerat aliquid suscipit tempore! Debitis harum vero recusandae vel magni
+                          possimus alias odio sapiente! Ducimus delectus ab labore explicabo,
+                          adipisci nobis necessitatibus odit amet.
+                        </p>
+                      </div>
+                      <div class="button d-flex flex-row-reverse col-lg-2">
+                        <a href="" class=""> COMPRAR</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="products__img col-lg-7 cl-md-12 d-flex justify-content-center">
+                    <img
+                      src="./imagenes/shifter-min.png"
+                      alt="Simracing shifter"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#product-slides" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#product-slides" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="footer__conteiner">
+          <div class="row">
+            <div class="footer__socialMedia col-lg-6 col-md-12 col-sm-12">
+              <p>Redes sociales</p>
+              <ul>
+                <li><a href="https://www.facebook.com/podiumelectronics">Facebook</a></li>
+                <li><a href="https://www.instagram.com/podiumelectronics">Instagram</a></li>
+                <li><a href="https://twitter.com/podiumelectronics">Twitter</a></li>
+              </ul>
+            </div>
+            <div class="footer__contactUs col-lg-6 col-md-12 col-sm-12">
+              <p>Contactanos</p>
+              <ul>
+                <li>Sunchales, Santa Fe</li>
+                <li>+54 3493-123456</li>
+                <li>info@podiumelectronics.com.ar</li>
+              </ul>
+            </div>
+            <div class="footer__copyright col-lg-12">Podium &copy; 2021</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!--JS Bootstrap-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300&display=swap");
+
+/*Variables*/
+$font: "Montserrat", sans-serif;
+
+$light-blue: #706fd0;
+$dark-blue: #46456e;
+$light-gray: #8b8d94;
+$dark-gray: #222222;
+$white: #fcfaf5;
+$light-brown: #baa850;
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  background-color: $dark-gray;
+  padding: 0;
+  margin: 0;
+
+  .row {
+    padding: 0;
+    margin: 0;
+  }
+  &__logo {
+    width: 170px;
+    padding: 0.5rem 0rem;
+  }
+  &__pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    ul {
+      list-style-type: none;
+      li {
+        display: flex;
+        align-items: center;
+        a {
+          font-family: $font;
+          font-size: 1.2rem;
+          font-weight: 200;
+          text-decoration: none;
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+.header {
+  .row {
+    padding: 0;
+    margin: 0;
+  }
+
+  /*Pagina productos*/
+  &__background {
+    height: 65vh;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  &__text {
+    width: 100vw/ (3);
+    color: $white;
+    position: absolute;
+    margin: 0rem 4rem;
+    padding: 1rem 1rem;
+    background-color: rgba(184, 184, 184, 0.3);
+    border: 2px solid $dark-gray;
+    h3 {
+      text-align: end;
+      font-size: 3rem;
+      font-weight: 200;
+    }
+    p {
+      text-align: end;
+      font-weight: 200;
+    }
+  }
+  &__drop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    h1 {
+      font-size: 3rem;
+      font-weight: 400;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+  }
+  hr {
+    width: 95vw;
+    border: none;
+    border-bottom: 1.5px solid rgb(10, 10, 10);
+    box-shadow: 0px 2px 5px black;
+    border-radius: 1rem;
+  }
+}
+
+.carousel {
+  &__container {
+    height: 65vh;
+    object-fit: cover;
+  }
+  &__title {
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
+  &__paragraph {
+    font-size: 1.2rem;
+    font-weight: 200;
+  }
+}
+
+.products {
+  margin: 3rem 0rem;
+  padding: 0;
+  .carousel-control-next,
+  .carousel-control-prev,
+  .carousel-indicators {
+    filter: invert(100%);
+  }
+  .row {
+    margin: 0;
+    padding: 0;
+  }
+  &__carousel {
+    width: inherit;
+  }
+  &__img {
+    width: 600px;
+    height: 600px;
+    img {
+      object-fit: contain;
+      width: inherit;
+    }
+  }
+  &__text {
+    h3 {
+      font-weight: 400;
+      color: $dark-gray;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  }
+}
+
+.footer {
+  background-color: $dark-gray;
+  color: $white;
+  font-weight: 200;
+  font-size: 1.1rem;
+  padding: 3rem 3rem 0 3rem;
+  &__socialMedia {
+    p {
+      font-size: 1.3rem;
+      text-decoration: underline;
+      text-underline-offset: 0.5rem;
+      text-decoration-color: $light-brown;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      a {
+        text-decoration: none;
+        color: $white;
+      }
+    }
+  }
+  &__contactUs {
+    p {
+      text-align: end;
+      font-size: 1.3rem;
+      text-decoration: underline;
+      text-underline-offset: 0.5rem;
+      text-decoration-color: $light-brown;
+    }
+    ul {
+      text-align: end;
+      list-style-type: none;
+      a {
+        text-decoration: none;
+        color: $white;
+      }
+    }
+  }
+  &__copyright {
+    font-size: 0.8rem;
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+  }
+}
+
+/*Pagina productos*/
+.product {
+  &__item {
+  }
+  &__description {
+    padding-bottom: 8rem;
+    row-gap: 1rem;
+    h3 {
+      font-size: 2rem;
+      font-weight: 400;
+    }
+    p {
+      font-size: 0.95rem;
+      font-weight: 400;
+    }
+  }
+  &__img {
+    width: 700px;
+    height: 700px;
+    img {
+      object-fit: contain;
+      height: inherit;
+    }
+  }
+  .handbrake {
+    img {
+      height: 500px;
+    }
+  }
+  .shifter {
+    img {
+      height: 500px;
+    }
+  }
+}
+
+.button {
+  a {
+    text-decoration: none;
+    color: $light-brown;
+    background-color: $dark-gray;
+    padding: 0.3rem 0.7rem;
+    &:hover {
+      color: $dark-gray;
+      background-color: $light-brown;
+    }
+  }
+}
+
+/*Pagina compania*/
+iframe{
+  width: inherit;
+  height: inherit;
+}
+.company{
+  padding: 5rem;
+  h2{
+    font-weight: 400;
+    padding: 1rem 0rem;
+  }
+  h3{
+    font-weight: 400;
+  }
+  p{
+    font-weight: 200;
+  }
+}
+
+/*Soporte*/
+.faq{
+  padding: 5rem;
+  h2{
+    font-weight: 400;
+    padding: 1rem 0rem;
+  }
+  &__questions{
+    h3{
+      font-weight: 400;
+    }
+    p{
+      font-weight: 200;
+    }
+  }
+}
+.contact{
+  font-size: 0.9rem;
+  padding: 2rem;
+  row-gap: 0.5rem;
+  align-items: center;
+  h2{
+    font-weight: 400;
+  }
+}
